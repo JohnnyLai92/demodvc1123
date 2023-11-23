@@ -1,0 +1,4 @@
+[core]
+    remote = jgdrive
+['remote "jgdrive"']
+    url = gdrive://17GKTV8RrQA1v-D2IvlB2d77znNB-rH1u
