@@ -1,0 +1,16 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python train\train.py
+    deps:
+    - path: train\train.py
+      hash: md5
+      md5: c4a1d281bf02cfc04af7e53a2461299e
+      size: 284
+  prepare:
+    cmd: python prepare\prepare.py
+    deps:
+    - path: prepare\prepare.py
+      hash: md5
+      md5: d41d8cd98f00b204e9800998ecf8427e
+      size: 0
